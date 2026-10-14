@@ -4,6 +4,10 @@ English | [中文](README.zh.md)
 
 A [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) plugin that puts the **subagent parallelism limit** on a slider in the composer tool row — beside the permission and plan controls — so you can change how wide delegation may go without leaving the conversation.
 
+![Composer row showing the permission control, subagent slider, and model selector](docs/composer-screenshot.png)
+
+_The screenshot shows the live composer row from the macOS verification session. The control is labeled `子代理` in the Chinese locale._
+
 ## What it does
 
 The slider reads and writes `maxActiveSubagents` in the host's `subagent` configuration namespace. The host enforces that value: once the ceiling is reached, further delegation is refused with

@@ -4,6 +4,10 @@
 
 一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件：把**子代理并行数量上限**做成输入框工具行里的一个滑块，就在权限、计划控件旁边。不必离开对话去开设置页，随手就能调整委派的宽度。
 
+![输入框工具行中的权限控件、子代理滑块和模型选择器](docs/composer-screenshot.png)
+
+_截图来自 macOS 实测时的真实输入框工具行；中文界面下控件标签显示为 `子代理`。_
+
 > 术语说明：本插件界面写作「子代理」，DeepSeek Harness 官方界面称「子智能体」，二者是同一个东西。
 
 ## 它做什么
