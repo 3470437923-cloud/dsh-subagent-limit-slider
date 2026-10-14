@@ -1,0 +1,11 @@
+# The bundle patch for dsh-subagent-limit-slider.
+#
+# A dsh profile is composed as layers of patches. This one inserts the plugin's
+# single Loader row over the profile root; the profile's own cordis.patch.yml
+# can then address that row by id (to change its config, or disable it).
+#
+# Without this file the package is not a bundle, and a profile cannot select it.
+
+- insert:
+    - id: subagent-limit-slider
+      name: 'dsh-subagent-limit-slider'

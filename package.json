@@ -1,0 +1,44 @@
+{
+  "name": "dsh-subagent-limit-slider",
+  "version": "0.1.0",
+  "description": "Composer slider for the DeepSeek Harness subagent parallelism limit",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "subagent",
+    "cordis"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3470437923-cloud/dsh-subagent-limit-slider.git"
+  },
+  "homepage": "https://github.com/3470437923-cloud/dsh-subagent-limit-slider#readme",
+  "bugs": {
+    "url": "https://github.com/3470437923-cloud/dsh-subagent-limit-slider/issues"
+  }
+}

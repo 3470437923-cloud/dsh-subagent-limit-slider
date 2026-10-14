@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output (this package ships its runtime files in lib/ on purpose)
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
